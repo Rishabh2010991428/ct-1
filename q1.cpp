@@ -16,7 +16,7 @@ void printArray(int* arr,int n){
             }
         }
     }
-    for(int i=1; i<n; i++){
+    for(int i=1; i<n; i+=2){
         for(int j=i+1; j<n; j++){
             int temp=arr[i];
             arr[i]=arr[j];
